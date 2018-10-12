@@ -17,7 +17,16 @@ GRANT CREATE SESSION TO STUDENT;
 
 GRANT MINI_DBA TO jalzate;
 
+-----------------------------------------------------------------------------------------
 
-
+    CREATE SEQUENCE SECUENCIA1
+    START WITH 500
+    INCREMENT BY 1
+    NOCYCLE;
+    
+    CREATE SEQUENCE SECUENCIA2
+    START WITH 500
+    INCREMENT BY 1
+    NOCYCLE;
 
 
